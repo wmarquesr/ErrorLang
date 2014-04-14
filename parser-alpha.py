@@ -13,10 +13,15 @@ tokens = ['IDENTIFIER',
 
 reserved = {
           'int': 'INT',
-          'bool': 'BOOL'
-          'string': 'STRING'
-          'void': 'VOID'
-}
+          'bool': 'BOOL',
+          'string': 'STRING',
+          'list': 'LIST',
+          'void': 'VOID',
+          'if': 'IF',
+          'else if': 'ELSE_IF',
+          'else': 'ELSE',
+          'return': 'RETURN',
+          'while': 'WHILE'}
 
 import ply.lex as lex
 lex.lex()
