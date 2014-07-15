@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
- 
+
 find_package(GTest REQUIRED)
 find_package(Boost REQUIRED COMPONENTS regex)
 
